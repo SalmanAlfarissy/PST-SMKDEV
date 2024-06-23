@@ -31,11 +31,27 @@ function weightedStrings($string, $queries) {
     
     return $result;
 }
-
+//ex soal 1
 $string = "deeffggg";
 $queries = [4, 10, 21, 15];
 
 $output = weightedStrings($string, $queries);
 print_r($output);
+
+//ex soal 2
+$string = "aaabbccccd";
+$queries = [3, 6, 12, 24];
+
+$output = weightedStrings($string, $queries);
+print_r($output);
+
+//ex
+$string = "ddhhji";
+$queries = [8, 20, 10, 12];
+
+$output = weightedStrings($string, $queries);
+print_r($output);
+
+
 
 

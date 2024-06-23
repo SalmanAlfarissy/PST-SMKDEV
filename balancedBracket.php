@@ -32,7 +32,17 @@ function balancedBracket($string) {
         "\nPenjelasan: String".$string."tidak seimbang karena terdapat pasangan yang tidak sesuai antara ".implode(' dan ',$unbalace).".";
     }
 }
-
+//ex soal 1
 echo balancedBracket("([{}])");
 echo balancedBracket("([{]})");
 echo balancedBracket("({[]})");
+echo "\n====================================\n";
+//ex soal 2
+echo balancedBracket("{[(())]}");
+echo balancedBracket("{[(])}");
+echo balancedBracket("[{()}]");
+echo "\n====================================\n";
+//ex
+echo balancedBracket("{[[})}");
+echo balancedBracket("[{(])}");
+echo balancedBracket("{[()]}");
